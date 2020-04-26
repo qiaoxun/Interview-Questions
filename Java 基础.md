@@ -18,11 +18,17 @@
 ## 集合
 - 谈谈Java容器ArrayList、LinkedList、HashMap、HashSet的理解，以及应用场景
 - ConcurrentHashMap和HashMap
-- 
+- 讲一下 concurrentHashMap 原理。头插法还是尾插法？扩容怎么做？
+- 堆是怎么存储的，插入是在哪里？
+- 集合在迭代的过程中，插入或删除数据会怎样？
+- Collection 有什么子接口、有哪些具体的实现
+- 简单介绍下 ArrayList 怎么实现，加操作、取值操作，什么时候扩容？
+- 讲一下 hashMap 原理。hashMap 可以并发读么？并发写会有什么问题？
 - 
 
 ## NIO
 - dubbo、netty、RPC介绍原理
+- 了解 Netty 原理么
 - 
 
 ## 多线程
@@ -39,7 +45,18 @@
 - Java里怎么实现缓存一致性的
 - jvm的锁优化有什么
 - 那还有其他编译器的锁优化吗
+- 怎么控制多个线程按序执行？
+- 线程的生命周期有哪些状态？怎么转换？
+- wait 和 sleep 有什么区别？什么情况下会用到 sleep？
+- 怎么停止线程？
+- 进程间如何通信：进程 A 想读取进程 B 的主存怎么办？线程间通信？
+- 死锁条件
+- 了解 AQS 么？讲讲底层实现原理
+- AQS 有那些实现？
+- 讲讲 AtomicInteger 的底层实现
+- volatile 关键字有什么用？怎么理解可见性，一般什么场景去用可见性
+- 讲一下 threadLocal 原理，threadLocal 是存在 jvm 内存哪一块的
 - 
-- 
-- 
-- 
+
+
+
