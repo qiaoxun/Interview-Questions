@@ -8,4 +8,14 @@
 - tcp 的握手与挥手
 - select 和 epoll的区别
 - http与https的区别，加密怎么加的？
-- 
+- tcp 有哪些机制确保可靠性？拥塞控制怎么实现？
+- close_wait 太多怎么处理？为什么会出现这种情况？
+- 讲讲三次握手，四次挥手
+- http 2 有了解过么，新增了哪些功能，现在用的什么版本？1.1？
+- http 缓存机制都有哪些？什么是 cdn？header 中涉及到缓存的字段有哪些？
+- cookie session 介绍一下
+- http 协议，报文格式？
+- keepalive 有什么用？
+- Https 原理？
+- 知道哪些 http 状态码有哪些？
+- http 有哪些请求方法？put、post 实现上有什么区别？
